@@ -11,10 +11,4 @@ public class Course {
     private String title;
     private String description;
 
-//    public Course(long id, String title, String description) {
-//        this.id = id;
-//        this.title = title;
-//        this.description = description;
-//
-//    }
 }
