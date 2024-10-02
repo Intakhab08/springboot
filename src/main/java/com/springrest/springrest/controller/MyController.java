@@ -19,12 +19,14 @@ public class MyController {
 
     @GetMapping("/courses/{courseId}")
     public Course getCourseById(@PathVariable String courseId){
-        return this.courseService.getCourseById(Long.parseLong(courseId));
-    }
+            return this.courseService.getCourseById(Long.parseLong(courseId));
+        }
 
     @PostMapping("/courses")
     public Course addCourse(@RequestBody Course course){
-        return courseService.addCourse(course);
+
+            return courseService.addCourse(course);
+
     }
 }
 // actutator in sprinng // exception handled ... @ControlAdvice @Excdhandler
